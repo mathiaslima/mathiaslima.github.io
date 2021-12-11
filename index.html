@@ -1,0 +1,422 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Meu Currículo</title>
+  <link rel="stylesheet" href="style.css" />
+
+
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet" />
+
+</head>
+
+<body>
+
+  <main>
+    <div class="data-info-person">
+      <div onclick="window.open('files/Curriculum.pdf')" class="button-download">
+        <h5>Download CV</h5>
+      </div>
+      <div class="section-photo-name-role" onclick="window.open('files/Curriculum.pdf')">
+        <img src="imagem/perfil.PNG" alt="imagem pessoal" />
+        <h5>
+          Mathias Lima
+        </h5>
+        <p>
+          Team Leader
+          <br />
+          Front-end Developer
+        </p>
+      </div>
+      <ul class="section-address-year show-on-hover">
+        <li>
+          <h6>Estado</h6>
+          <span>Rio Grande do Norte</span>
+        </li>
+        <li>
+          <h6>Cidade</h6>
+          <span>Natal</span>
+        </li>
+        <li>
+          <h6>Idade</h6>
+          <span>22</span>
+        </li>
+        <li id="hide">
+          <h6>Português</h6>
+          <span>100%</span>
+        </li>
+        <li id="hide">
+          <h6>Inglês</h6>
+          <span>50%</span>
+        </li>
+        <li id="hide">
+          <h6>Espanhol</h6>
+          <span>75%</span>
+        </li>
+      </ul>
+      <div class="divider"></div>
+      <ul class="section-list-language">
+        <li>
+          <div class="label-per">
+            <h6>ReactJS</h6>
+            <span>100%</span>
+          </div>
+          <div class="background-per-bar">
+            <div class="per-bar" style="width: 100%;"></div>
+          </div>
+        </li>
+        <li>
+          <div class="label-per">
+            <h6>React Native</h6>
+            <span>100%</span>
+          </div>
+          <div class="background-per-bar">
+            <div class="per-bar" style="width: 100%;"></div>
+          </div>
+        </li>
+        <li>
+          <div class="label-per">
+            <h6>AngularJS</h6>
+            <span>70%</span>
+          </div>
+          <div class="background-per-bar">
+            <div class="per-bar" style="width: 70%;"></div>
+          </div>
+        </li>
+        <li>
+          <div class="label-per">
+            <h6>VueJS</h6>
+            <span>80%</span>
+          </div>
+          <div class="background-per-bar">
+            <div class="per-bar" style="width: 85%;"></div>
+          </div>
+        </li>
+        <li>
+          <div class="label-per">
+            <h6>Scrum</h6>
+            <span>90%</span>
+          </div>
+          <div class="background-per-bar">
+            <div class="per-bar" style="width: 90%;"></div>
+          </div>
+        </li>
+      </ul>
+      <div class="divider"></div>
+      <ul class="section-other-stacks">
+        <li>
+          <img src="imagem/check.svg" alt="">
+          <span>
+            Jest, Cypress, Detox
+          </span>
+        </li>
+        <li>
+          <img src="imagem/check.svg" alt="">
+          <span>
+            CSS, Sass
+          </span>
+        </li>
+        <li>
+          <img src="imagem/check.svg" alt="">
+          <span>
+            Typescript
+          </span>
+        </li>
+        <li>
+          <img src="imagem/check.svg" alt="">
+          <span>
+            Git, CI/CD
+          </span>
+        </li>
+        <li>
+          <img src="imagem/check.svg" alt="">
+          <span>
+            Redux, ContextAPI
+          </span>
+        </li>
+      </ul>
+      <div class="divider"></div>
+      <ul class="list-redes">
+        <li>
+          <a href="https://github.com/mathiaslima" target="_blank">
+            <img src="imagem/github.svg" alt="">
+          </a>
+        </li>
+        <li>
+          <a href="https://www.linkedin.com/in/mathias-morais-20664416a/" target="_blank">
+            <img src="imagem/linkedin.svg" alt="">
+          </a>
+        </li>
+        <li>
+          <a href="mailto:mathias.morais7@gmail.com" target="_blank">
+            <img src="imagem/mail.svg" alt="">
+          </a>
+        </li>
+        <li>
+          <a href="https://t.me/MathiasLima" target="_blank">
+            <img src="imagem/send.svg" alt="">
+          </a>
+        </li>
+        <li>
+          <a href="https://www.npmjs.com/package/@mathiaslima/react-big-calendar" target="_blank">
+            <img src="imagem/package.svg" alt="">
+          </a>
+        </li>
+      </ul>
+    </div>
+
+
+    <div class="data-history-person">
+      <div class="section-history-education-work">
+        <h4>
+          Educação
+        </h4>
+        <ul class="list-cards">
+          <li class="item-history">
+            <div class="card-history">
+              <div class="header-card-history">
+                <div class="local-role">
+                  <h5>CodaBR</h5>
+                  <span>Professor</span>
+                </div>
+                <div class="date-radio">
+                  <span>Nov 2021 - Dez 2021</span>
+                </div>
+              </div>
+
+              <div class="body-card-history">
+                <p>
+                  Projeto pessoal que leva o mundo da programação para
+                  as cidades pequenas do Nordeste Brasileiro. O curso tem
+                  duração de 8 semanas, 4 horas presenciais e 4 horas à distância.
+                  <br />
+                  Ementa: HTML, CSS, Javascript e noções de Git
+                </p>
+              </div>
+            </div>
+            <div class="bar-point">
+              <div class="circle-bar"></div>
+            </div>
+          </li>
+          <li class="item-history">
+            <div class="card-history">
+              <div class="header-card-history">
+                <div class="local-role">
+                  <h5>Universidade Federal do Rio Grande do Norte</h5>
+                  <span>Estudante</span>
+                </div>
+                <div class="date-radio">
+                  <span>Jan 2019 - Dez 2024</span>
+                </div>
+              </div>
+
+              <div class="body-card-history">
+                <p>
+                  O Bacharelado em Tecnologia da Informação é um curso de
+                  graduação com características de formação em dois ciclos com elevada
+                  flexibilidade, voltado para a aquisição de grau acadêmico vinculado à
+                  área de tecnologia da informação. Sua estrutura curricular, está
+                  construída tendo como requisito essencial a possibilidade do
+                  estudante adaptar o seu percurso formativo ao longo do curso,
+                  de acordo com os seus interesses e méritos acadêmicos.
+                </p>
+              </div>
+            </div>
+            <div class="bar-point">
+              <div class="circle-bar"></div>
+            </div>
+          </li>
+          <li class="item-history">
+            <div class="card-history">
+              <div class="header-card-history">
+                <div class="local-role">
+                  <h5>Universidade Federal do Rio Grande do Norte</h5>
+                  <span>Estudante</span>
+                </div>
+                <div class="date-radio">
+                  <span>Jan 2019 - Dez 2022</span>
+                </div>
+              </div>
+
+              <div class="body-card-history">
+                <p>
+                  O Curso Técnico em Informática para Internet, forma profissionais que desenvolvem programas
+                  de computador para internet, seguindo as especificações e paradigmas da lógica de programação e das
+                  linguagens de programação, utilizam ferramentas de desenvolvimento de sistemas, para construir
+                  soluções que auxiliam o processo de criação de interfaces e aplicativos empregados no comércio e
+                  marketing eletrônicos. Desenvolvem e realizam a manutenção de sites e portais na internet e na
+                  intranet.
+                </p>
+              </div>
+            </div>
+            <div class="bar-point">
+              <div class="circle-bar"></div>
+            </div>
+          </li>
+          <li class="item-history">
+            <div class="card-history">
+              <div class="header-card-history">
+                <div class="local-role">
+                  <h5>Universidade Federal do Rio Grande do Norte</h5>
+                  <span>Estudante</span>
+                </div>
+                <div class="date-radio">
+                  <span>Jan 2017 - Jun 2018</span>
+                </div>
+              </div>
+
+              <div class="body-card-history">
+                <p>
+                  O objetivo geral do Curso Técnico em Redes de Computadores é
+                  auxiliar os negócios e processos em Tecnologia da Informação.
+                  Além disso, utilizando redes de computadores, planejar e
+                  implantar a infraestrutura de uma rede local de computadores
+                  incluindo redes wifi. Também, promover a utilização, a
+                  administração e o suporte de sistemas operacionais de redes e
+                  seus serviços de redes associados.
+                </p>
+              </div>
+            </div>
+            <div class="bar-point">
+              <div class="circle-bar"></div>
+            </div>
+          </li>
+        </ul>
+      </div>
+      <div class="section-history-education-work">
+        <h4>
+          Experiências
+        </h4>
+        <ul class="list-cards">
+          <li class="item-history">
+            <div class="card-history">
+              <div class="header-card-history">
+                <div class="local-role">
+                  <h5>Closeer</h5>
+                  <span>Front-end Developer, Team Leader</span>
+                </div>
+                <div class="date-radio">
+                  <span>Set 2020 - Atual</span>
+                </div>
+              </div>
+
+              <div class="body-card-history">
+                <p>
+                  Colaborando no desenvolvimento do site e aplicativos da empresa. Desenvolvendo aplicativos para
+                  Android e IOS, realizando automação dos apps, fazendo a build e deploy
+                  nas lojas correspondentes.
+                  Teste Automatizado de Apps em React Native com Detox.
+                  Atuando no gerenciamento da equipe de desenvolvimento front-end, como lider técnico.
+                  Gerenciando projeto que leva a programação para as cidades pequenas do Nordeste Brasileiro.
+                  <br />
+                  <br />
+                  Tecnologias utilizadas: React, React Native, CI/CD, Jest, Cypress, Scrum, Detox, Git, Clean Code, Code
+                  Review, Agile, TDD,
+                </p>
+              </div>
+            </div>
+            <div class="bar-point">
+              <div class="circle-bar"></div>
+            </div>
+          </li>
+          <li class="item-history">
+            <div class="card-history">
+              <div class="header-card-history">
+                <div class="local-role">
+                  <h5>Ministério Público do Estado do Rio Grande do Norte</h5>
+                  <span>Front-end Developer</span>
+                </div>
+                <div class="date-radio">
+                  <span>Fev 2020 - Set 2020</span>
+                </div>
+              </div>
+
+              <div class="body-card-history">
+                <p>
+                  Trabalhei no desenvolvimento do site que os procuradores
+                  utilizavam para fazer todo o gerenciamento de
+                  dados de todas as prefeituras do estado. Também colaborei durante o início da pandemia, no
+                  desenvolvimento do aplicativo que ajudava os agentes de saúde no sistema de testagem, projetamos todo
+                  o fluxo para que ele pudesse analisar os dados que os usuários colocassem, e caso fosse necessário,
+                  fazer um agendamento.
+                  <br />
+                  <br />
+                  Tecnologias utilizadas: VueJS, React Native, React, Cypress, Scrum, Git
+                </p>
+              </div>
+            </div>
+            <div class="bar-point">
+              <div class="circle-bar"></div>
+            </div>
+          </li>
+          <li class="item-history">
+            <div class="card-history">
+              <div class="header-card-history">
+                <div class="local-role">
+                  <h5>Saúde Materno-Infantil</h5>
+                  <span>Front-end Developer</span>
+                </div>
+                <div class="date-radio">
+                  <span>Dez 2019 - Jan 2020</span>
+                </div>
+              </div>
+
+              <div class="body-card-history">
+                <p>
+                  Execução de processo de avaliação de funcionalidades de
+                  software. Oferecimento de treinamentos práticos direcionados
+                  aos profissionais da saúde. Redação de relatórios técnicos e
+                  publicações científicas.
+                  <br />
+                  <br />
+                  Tecnologias utilizadas: Angular, Ionic e Git
+                </p>
+              </div>
+            </div>
+            <div class="bar-point">
+              <div class="circle-bar"></div>
+            </div>
+          </li>
+          <li class="item-history">
+            <div class="card-history">
+              <div class="header-card-history">
+                <div class="local-role">
+                  <h5>OBAMA</h5>
+                  <span>Front-end Developer</span>
+                </div>
+                <div class="date-radio">
+                  <span>Jul 2019 - Dez 2019</span>
+                </div>
+              </div>
+
+              <div class="body-card-history">
+                <p>
+                  Auxiliar no desenvolvimento de componentes da Plataforma OBAMA, por meio de sistemas
+                  web. Implementar soluções web para atender a demandas da equipe da OBAMA.
+                  Atuar na manutenção da Plataforma OBAMA. Colaborar na correção de erros e ajustes da Plataforma
+                  OBAMA. Colaborar nas demais etapas da pesquisa.
+                  <br />
+                  <br />
+                  Tecnologias utilizadas: HTML, CSS, Java e Git
+                </p>
+              </div>
+            </div>
+            <div class="bar-point">
+              <div class="circle-bar"></div>
+            </div>
+          </li>
+        </ul>
+      </div>
+
+    </div>
+  </main>
+
+</body>
+
+</html>

@@ -1,0 +1,267 @@
+* {
+  margin: 0;
+}
+
+html,
+body {
+  height: 100%;
+  --white: #fafafc;
+  --dark: #1e1e28;
+  --dark-light: #2b2b36;
+  --yellow: #ffc107;
+  height: 100%;
+  font-family: "Roboto", sans-serif;
+  background-color: #1e1e28;
+  color: #8c8c8e;
+  font-size: 12px;
+  font-weight: 300;
+  letter-spacing: 0.5px;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-weight: 600;
+  color: var(--white);
+}
+
+h4 {
+  font-size: 17px;
+}
+
+h5 {
+  font-size: 14px;
+}
+
+h6 {
+  font-size: 12px;
+  font-weight: 400;
+}
+
+main {
+  display: flex;
+  flex: 1;
+  padding: 4%;
+}
+
+.data-info-person {
+  display: flex;
+  flex: 0.2;
+  padding: 16px;
+  flex-direction: column;
+  background-color: #20202a;
+}
+
+.section-photo-name-role {
+  padding: 24px;
+  background-color: #23232d;
+  text-align: center;
+  cursor: pointer;
+  -webkit-box-shadow: 0 1px 4px 0 rgba(15, 15, 20, 0.1);
+  box-shadow: 0 1px 4px 0 rgba(15, 15, 20, 0.1);
+}
+
+.section-photo-name-role p {
+  text-align: center;
+  padding: 8px;
+}
+
+.section-photo-name-role img {
+  width: 90px;
+  height: 90px;
+  margin: 0 auto;
+  margin-bottom: 0px;
+  border-radius: 50%;
+  position: relative;
+  margin-bottom: 15px;
+}
+
+.section-address-year {
+  list-style: none;
+  padding: 24px;
+}
+
+.section-address-year li {
+  display: flex;
+  list-style-type: none;
+  justify-content: space-between;
+  margin-bottom: 8px;
+}
+
+.divider {
+  background: #646466;
+  width: 100%;
+  height: 1px;
+  opacity: 0.3;
+}
+
+#hide {
+  display: none;
+}
+
+.show-on-hover:hover #hide {
+  display: flex;
+}
+
+.section-list-language {
+  list-style: none;
+  padding: 24px;
+}
+
+.section-list-language li {
+  display: flex;
+  flex-direction: column;
+  list-style-type: none;
+  justify-content: space-between;
+  margin-bottom: 8px;
+  margin-top: 8px;
+}
+
+.label-per {
+  display: flex;
+  justify-content: space-between;
+}
+.background-per-bar {
+  background-color: #191923;
+  width: 100%;
+  margin-top: 8px;
+}
+
+.per-bar {
+  height: 4px;
+  background-color: var(--yellow);
+  border-radius: 6px;
+}
+
+.section-other-stacks {
+  list-style: none;
+  padding: 24px;
+}
+
+.section-other-stacks li {
+  display: flex;
+  list-style-type: none;
+  align-items: center;
+  margin-bottom: 16px;
+}
+
+.section-other-stacks img {
+  width: 16px;
+  height: 16px;
+  margin-right: 8px;
+}
+
+.button-download {
+  cursor: pointer;
+  padding-top: 8px;
+  padding-bottom: 8px;
+  display: flex;
+  justify-content: center;
+}
+
+.list-redes {
+  list-style: none;
+  padding: 24px;
+  padding-top: 8px;
+  padding-bottom: 8px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.data-history-person {
+  display: flex;
+  flex: 0.8;
+  flex-direction: row;
+  gap: 16px;
+}
+
+.section-history-education-work {
+  display: flex;
+  flex: 0.5;
+  flex-direction: column;
+  padding: 24px;
+}
+
+.list-cards {
+  display: flex;
+  flex-direction: column;
+  list-style: none;
+  padding: 0;
+}
+
+.item-history {
+  display: flex;
+  flex: 1;
+}
+
+.card-history {
+  display: flex;
+  flex: 0.9;
+  flex-direction: column;
+  padding: 24px;
+  background-color: #23232d;
+  border-radius: 8px;
+  margin-right: 16px;
+  margin-bottom: 32px;
+  -webkit-box-shadow: 0 1px 4px 0 rgba(15, 15, 20, 0.1);
+  box-shadow: 0 1px 4px 0 rgba(15, 15, 20, 0.1);
+  position: relative;
+}
+
+.card-history:after {
+  /* content necessário para a criação de um elemento vazio */
+  content: "";
+
+  width: 0;
+  height: 0;
+
+  /* position: absolute para manipularmos a posição da seta */
+  position: absolute;
+
+  /* Right com valor negativo para ele ficar para fora do balão de dialogo */
+  right: -8px;
+  top: 20px;
+  /* E aqui o truque com as bordas */
+  border-top: 8px solid transparent;
+  border-bottom: 8px solid transparent;
+  border-left: 8px solid #23232d;
+}
+
+.header-card-history {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 16px;
+  align-items: flex-start;
+}
+
+.local-role span {
+  font-style: italic;
+}
+
+.date-radio {
+  background-color: var(--dark);
+  padding: 6px 16px 6px 16px;
+  border-radius: 8px;
+}
+
+.bar-point {
+  background-color: #00000050;
+  width: 4px;
+  height: 100%;
+  position: relative;
+  display: flex;
+  justify-content: center;
+}
+
+.circle-bar {
+  position: absolute;
+  background-color: var(--dark);
+  width: 10px;
+  height: 10px;
+  top: 20px;
+  border: 2px solid var(--yellow);
+  border-radius: 6px;
+}
